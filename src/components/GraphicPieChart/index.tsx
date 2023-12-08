@@ -33,7 +33,7 @@ const apiData = [
 type CharDate = {
   id: string;
   label: string;
-  externalID: string;
+  externalId: string;
   value: number;
   color: string;
 };
