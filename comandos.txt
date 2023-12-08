@@ -1,0 +1,9 @@
+
+
+dev dependecias para instalar eslint e prettier:
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-import-helpers
+
+
+npm install styled-components
+
+npm i @react-input/mask
