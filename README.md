@@ -1,13 +1,9 @@
 # DevMoney
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/chrystophermedeiros/devmoney-interface)
-
 ![GitHub language count](https://img.shields.io/github/languages/count/chrystophermedeiros/devmoney-interface)
-
 ![GitHub forks](https://img.shields.io/github/forks/chrystophermedeiros/devmoney-interface)
-
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/chrystophermedeiros/devmoney-interface)
-
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/chrystophermedeiros/devmoney-interface?style=for-the-badge)
 
 
