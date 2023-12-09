@@ -33,8 +33,18 @@ export function Home() {
           <Filters>
             <Title title="Saldo" subtitle="Receitas e despesas no periodo" />
             <InputGroup>
-              <Input variant="dark" label="inicio" type="date" />
-              <Input variant="dark" label="Fim" type="date" />
+              <Input
+                variant="dark"
+                label="inicio"
+                type="date"
+                placeholder="dd/mm/aaaa"
+              />
+              <Input
+                variant="dark"
+                label="Fim"
+                type="date"
+                placeholder="dd/mm/aaaa"
+              />
               <ButtonIcon />
             </InputGroup>
           </Filters>
