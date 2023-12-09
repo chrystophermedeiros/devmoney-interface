@@ -44,6 +44,16 @@ const apiData = [
     incomes: 7134,
     expenses: 5445,
   },
+
+  {
+    _id: {
+      year: 2023,
+      month: 5,
+    },
+    balance: 8980,
+    incomes: 7134,
+    expenses: 5445,
+  },
 ];
 
 type CharData = {

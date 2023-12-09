@@ -20,7 +20,7 @@ export const Container = styled.div<ContainerProps>`
     height: 2.25rem;
     background-color: ${(props) => theme.colors[props.$variant]};
     border: 0;
-    border-radius: 0%.25rem;
+    border-radius: 0.25rem;
     padding: 0 0.75rem;
     color: ${theme.colors.neutral};
     width: 100%;

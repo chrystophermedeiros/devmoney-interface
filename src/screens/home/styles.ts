@@ -15,6 +15,11 @@ export const Main = styled.main`
   gap: 0.75rem;
   width: 100%;
   padding: 0 1.5rem;
+  @media (max-width: 480px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0 0.75rem;
+  }
 `;
 
 export const Section = styled.section`
@@ -29,12 +34,30 @@ export const Filters = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const InputGroup = styled.div`
   display: flex;
   align-items: flex-end;
   gap: 0.5rem;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0.2rem;
+    overflow: hidden;
+    label {
+      margin-top: 1rem;
+    }
+    input {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+  }
 `;
 
 export const Balance = styled.div`
@@ -71,13 +94,17 @@ export const CharAction = styled.div`
 `;
 
 export const Aside = styled.aside`
-  width: 22.5rem;
+  max-width: 22.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   padding: 1rem;
   border-radius: 0.25rem;
   background-color: ${theme.colors.dark};
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+  }
 
   header {
     display: flex;
@@ -91,6 +118,10 @@ export const SearchTransaction = styled.div`
   display: flex;
   align-items: flex-end;
   gap: 0.75rem;
+  @media (max-width: 480px) {
+    align-items: center;
+    justify-content: space-evenly;
+  }
 `;
 
 export const TransactionGroup = styled.div`

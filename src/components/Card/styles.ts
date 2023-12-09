@@ -18,21 +18,38 @@ export const Container = styled.div<ContainerProps>`
   background-color: ${theme.colors.dark};
   border-radius: 0.25rem;
   width: 100%;
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 
   svg {
-    width: 1.75rem;
+    height: 1.75rem;
     width: 1.75rem;
     fill: ${(props) => variantColorMap[props.$variant]};
+    @media (max-width: 480px) {
+      padding: 0.1rem;
+    }
   }
   span {
     font-size: 1rem;
     font-weight: 300;
     color: ${theme.colors.neutral};
+    @media (max-width: 480px) {
+      padding: 0.1rem;
+      font-size: 0.85rem;
+    }
   }
 
   strong {
     font-size: 1rem;
     font-weight: 300;
     color: ${(props) => variantColorMap[props.$variant]};
+    @media (max-width: 480px) {
+      padding: 0.1rem;
+      font-size: 0.85rem;
+    }
   }
 `;

@@ -30,7 +30,7 @@ export function ModalCategory() {
         <form>
           <div>
             <Input label="Nome" placeholder="Nome da categoria" />
-            <Input label="Nome" type="color" />
+            <Input label="Cor" type="color" />
           </div>
           <footer>
             <Button onClick={handClose} type="button" variant="outline">

@@ -76,13 +76,15 @@ export function GraphicPieChar() {
       }}
       legends={[
         {
-          anchor: 'right',
+          anchor: 'top-left',
           direction: 'column',
           justify: false,
-          translateX: 0,
-          translateY: -12,
+          translateX: 1,
+          translateY: 0,
+          padding: 1,
+          symbolSpacing: 2,
           itemWidth: 120,
-          itemHeight: 16,
+          itemHeight: 12,
           itemTextColor: theme.colors.neutral,
           itemDirection: 'left-to-right',
           itemOpacity: 1,
