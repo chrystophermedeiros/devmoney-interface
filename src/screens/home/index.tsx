@@ -33,24 +33,8 @@ export function Home() {
           <Filters>
             <Title title="Saldo" subtitle="Receitas e despesas no periodo" />
             <InputGroup>
-              <InputMask
-                component={Input}
-                mask="dd/mm/aaaa"
-                replacement={{ d: /\d/, m: /\d/, a: /\d/ }}
-                variant="dark"
-                label="inicio"
-                placeholder="dd/mm/aaaa"
-                type="date"
-              />
-              <InputMask
-                component={Input}
-                mask="dd/mm/aaaa"
-                replacement={{ d: /\d/, m: /\d/, a: /\d/ }}
-                variant="dark"
-                label="Fim"
-                placeholder="dd/mm/aaaa"
-                type="date"
-              />
+              <Input variant="dark" label="inicio" type="date" />
+              <Input variant="dark" label="Fim" type="date" />
               <ButtonIcon />
             </InputGroup>
           </Filters>
