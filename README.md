@@ -6,6 +6,19 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/chrystophermedeiros/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/chrystophermedeiros/README-template?style=for-the-badge)
 
+<table>
+  <tr>
+    <td>
+      <img
+        align="left"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrystophermedeiros&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+        alt="Github stats"
+      />
+    </td>
+  </tr>
+</table>
+<br />
+
 <img src="./src/assets/tela-devMoney.png" alt="Exemplo imagem">
 
 > O Sistema de Controle Financeiro Pessoal é uma aplicação web desenvolvida com ênfase na experiência do usuário e praticidade. Ele oferece funcionalidades abrangentes para o gerenciamento financeiro pessoal, capacitando os usuários a registrar e monitorar transações, analisar padrões de comportamento ao longo do tempo e categorizar gastos para uma compreensão mais aprofundada dos hábitos financeiros. O sistema, com interface web front-end, inclui recursos como Registro de Transações, Acompanhamento de Saldo, Análise Temporal de Receitas e Despesas, Categorização de Despesas, Evolução Financeira Anual, Detalhes de Transações, Resumo de Receitas e Gastos Periódicos, além de uma Pesquisa Avançada para facilitar a navegação e a busca de informações específicas.
